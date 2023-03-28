@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url("/images/greenBoard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+
+.gridContainer{
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
